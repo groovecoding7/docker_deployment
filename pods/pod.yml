@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: asp-api-app
+  labels:    
+    app: web  
+spec:
+  containers:
+    - name: web-ctr        
+      image: groovecoding7/docker_deployment    
+      ports:
+        - containerPort: 8081
+ 

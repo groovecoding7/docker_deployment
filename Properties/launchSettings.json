@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "LogFileViewerr": {
+    "LogFileViewer": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "file",
@@ -31,7 +31,7 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/file",
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": false
     }
   }
 }
